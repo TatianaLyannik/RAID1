@@ -1,0 +1,9 @@
+2. Дать конкретному пользователю права рута
+
+/etc/passwd
+
+kdo:x:1001:1001::/home/kdo:/bin/bash
+
+sudoers
+
+ %wheel	ALL=(ALL)	NOPASSWD: ALL
